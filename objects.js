@@ -1,4 +1,4 @@
-/*
+
 // Declaring Objects
 
 const circle = {
@@ -14,7 +14,7 @@ const circle = {
 
 circle.draw();
 
-
+____________________________________________________________
 
 // Declaring Factory Function
 function createCircle(radius) {
@@ -30,7 +30,6 @@ const circle1 = createCircle(1);
 console.log(circle1);
 
 
-
 // Declaring Constructor Function
 function CreateCircle(radius) {
     this.radius = radius;
@@ -44,6 +43,7 @@ console.log(circle2);
 
 
 
+--------------------------------------------------------------------
 //Dynamic Nature Of Objects
 const circle = {
     radius: 1
@@ -58,6 +58,7 @@ delete circle.color;
 console.log(circle);
 
 
+----------------------------------------------------------------------
 
 //Enumeration Properties Of Objects
 const circle = {
@@ -73,6 +74,8 @@ for(let key of Object.keys(circle))
 for(let entry of Object.entries(circle))
     console.log(entry);
 
+
+-----------------------------------------------------------------------
 // Cloning An Object
 const another = Object.assign({
     color : 'yellow'
@@ -82,7 +85,7 @@ console.log(another);
 const another = { ...circle };
 console.log(another);
 
-*/
+
 
 
 
